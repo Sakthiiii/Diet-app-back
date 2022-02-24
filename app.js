@@ -38,7 +38,7 @@ let startServer = async () => {
 
     const port = process.env.PORT || 3001;
     server.listen(port, () => {
-      console.log("server is runnging at local");
+      console.log("server is runnging at local in 3001");
     });
   } catch (err) {
     console.log(err);
